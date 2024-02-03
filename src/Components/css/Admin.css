@@ -1,0 +1,66 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.Homepage{
+    margin-left: 15%; 
+    padding: 20%;
+    text-align: center;
+    /* margin-left: 15%;  */
+    padding: 20px; 
+    /* margin-top: 6vh; */
+    text-align: center;
+    /* background: red; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Homepage{
+  /* margin-top: 12vh; */
+  /* margin-left: 0; */
+}
+
+
+
+
+
+.Homepage h3 {
+    font-size: 2rem;
+    color: #333; 
+    text-align: center;
+  }
+  
+.Homepage  strong {
+    font-weight: bold;
+  }
+
+@media (max-width: 649px){
+  .Homepage{
+    margin-left: 15%; 
+    padding: 20%;
+    text-align: center;margin-left: 15%; 
+    padding: 20px; 
+    margin-top: 6vh;
+    text-align: center;
+    /* background: red; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Homepage{
+  margin-top: 12vh;
+  /* margin-left: 0; */
+}
+  .Homepage{
+    margin-left:0;
+    
+  }
+}
+
+
+
+
+
+  

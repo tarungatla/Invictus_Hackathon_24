@@ -1,0 +1,19 @@
+.order-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.order-info p {
+    margin: 5px 0;
+}
+
+.order-status span {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}

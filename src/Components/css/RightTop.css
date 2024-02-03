@@ -1,0 +1,62 @@
+
+.Right-Top {
+    background-color: #fff; /* Set the background color as needed */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .RT-Box {
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+  }
+  
+  .RT-Box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .RT-Box li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Add a border between rows */
+    padding: 10px 0;
+  }
+
+  .RT-Box ul{
+    padding-left: 45px;
+  }
+  
+  /* h4 {
+    margin-right: 10px;
+  } */
+
+  @media only screen and  (max-width: 767px){
+    .Right-Top {
+        width: 500px;
+      }
+  }
+
+  @media only screen and (max-width: 538px){
+    .Right-Top{
+      width: 300px;
+    }
+
+    .RT-Box{
+      margin-left: -50px;
+    }
+  }
+
+  @media only screen and (max-width: 431px){
+    .Right-Top{
+      width: 200px;
+    }
+  }
+  
+  /* Optional: Add some styles for responsive design */
+  @media (max-width: 600px) {
+    li {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start;
+    }
+  }

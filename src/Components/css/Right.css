@@ -1,0 +1,92 @@
+.Right{
+display: flex;
+flex-direction: column;
+/* background-color: aqua; */
+height: 100vh;
+overflow-y: hidden;
+}
+.Right h3{
+    text-decoration: none;
+    /* margin: 0;
+    padding: 0; */
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.Right-Top{
+height: 70%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.RT-Box{
+    height: 80%;
+    width: 100%;
+    
+    background-color: rgba(137, 43, 226, 0.394);
+}
+.RT-Box ul{
+    margin: 0;
+    text-align: left;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+.RT-Box ul li{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    /* background-color: aqua; */
+}
+/*                                    sectiomnnnn chahnge */
+
+.Right-Bottom{
+height: 30%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.RB-Box{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.RB-Box button{
+    width: 40%;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .Right {
+        /* Default values */
+        position: static; /* or 'static' for default positioning */
+        display: block; /* or 'block' for default display */
+        flex-direction: row; /* or 'row' for default flex direction */
+        width: auto; /* or 'auto' for default width */
+        height: auto; /* or 'auto' for default height */
+        /* background-color: transparent; */
+        right: auto; /* or 'auto' for default right position */
+        top: auto; /* or 'auto' for default top position */
+        overflow-y: visible; /* or 'visible' for default overflow-y */
+      }
+      
+}

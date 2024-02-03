@@ -1,0 +1,175 @@
+.main-Center-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.graph-container {
+  background: #eef5ff;
+  border-radius: 2%;
+  border: 1px solid;
+  margin-bottom: 50px;
+  width: 45%;
+}
+
+.dashboardContainer {
+  overflow-x: scroll;
+  overflow: hidden;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Right-Top {
+  width: 500px;
+  background-color: #eef5ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  border: 1px solid;
+  margin-bottom: 50px;
+}
+
+.chartdiag {
+  /* width: 500px; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.graph-main-cont h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.RT-Box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.RT-Box li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.graph-main-cont h4 {
+  margin-right: 10px;
+}
+.Home-msg{
+
+  margin: 0;
+  padding: 0;
+
+}
+.Home-msg h3{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+@media (max-width: 760px) {
+  .Homepage{
+    margin: 0;
+    margin-top: 15vh;
+    padding: 0 !important;
+  }
+  .graph-main-cont {
+    /* width: 400px; */
+    width: 100%;
+  }
+
+  .graph-sub-cont {
+   width: 100%;
+  }
+
+  .chartdiag {
+    width: 400px;
+  }
+
+  .graph-main-cont {
+    width: 300px;
+    margin-left: 50px;
+  }
+
+ 
+  .chartdiag {
+    width: 100%;
+    /* width: 300px; */
+    font-size: 5px;
+  }
+
+  .main-Center-cont {
+    /* width: 100%; */
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5px;
+    /* margin-left: 90px; */
+  }
+
+  .graph-main-cont {
+    margin-left: -650px;
+    /* width: 1000px; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .graph-main-cont h1 {
+    text-align: center;
+    margin-left: 45%;
+  }
+
+  .graph-container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /* margin-left: -100px;
+    margin-top: 12vh; */
+  }
+
+  .chartdiag {
+    /* margin-left: 535px; */
+    /* width: 80px; */
+    /* height: 200px; */
+    width: 100%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .graph-container {
+    width: 90%;
+overflow-x: scroll;
+  }
+
+
+ 
+  .main-Center-cont {
+    margin-left: 0%;
+    margin-left: 0;
+  }
+
+ 
+
+
+
+  .Right-Top {
+    margin-left: 0%;
+  }
+
+  /* Optional: Add some styles for responsive design */
+  .Right-Top {
+    width: 100%;
+    max-width: 400px;
+  }
+  .graph-main-cont h1{
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+  }
+}

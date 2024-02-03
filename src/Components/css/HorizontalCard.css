@@ -1,0 +1,31 @@
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-content p {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .status-indicator {
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .status-indicator.pending {
+    background-color: orange;
+  }
+  
+  .status-indicator.completed {
+    background-color: green;
+  }
+  

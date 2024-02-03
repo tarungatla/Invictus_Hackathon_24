@@ -1,0 +1,118 @@
+/* Nav.css */
+
+.Nav {
+    background-color: #176B87; 
+    color: #fff; 
+    width: 15%; 
+    height: 100vh; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    padding-top: 20px; 
+  }
+  
+  .list {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .list li {
+    transition:all 0.5s ease-in-out;
+    display: flex;
+  align-items: center;
+  padding: 7%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .list li:hover {
+    /* box-shadow: 1px 1px black; */
+    background-color: #003c50; 
+    color:wheat;
+    transform: scale(1.1);
+    
+  }
+  
+  .activesec {
+    transition: 0.3s ease-in-out;
+    background-color: #365486; 
+    background-color: #003c50; 
+    color:wheat;
+ translate:10px;
+ transform: scale(1.1);
+  }
+
+  .nav-top{
+    border-radius: 5px;
+    width: 70%;
+    height:10%;
+    margin: 0 auto;
+    border: 1pt solid grey;
+    text-align: center;
+    padding: 10px;
+    background: #EEF5FF;
+  } 
+
+  .nav-top img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo {
+    width: 12%; 
+    height: 12%; 
+    margin-right: 10%; 
+  }
+
+  
+  @media (max-width: 767px) {
+    .MN-Top{
+      position: fixed;
+      bottom: 86vh;
+      /* padding-top: 2vh; */
+      display: flex;
+      justify-content: space-between;
+      color: wheat;
+      align-items: center;
+      border-radius: 10px;
+      margin-top: 2vh;
+      margin-left: 2vw;
+      margin-right: 2vw;
+      /* background-image: url('../assets/stacked-waves-haikei.png'); */
+      /* background-repeat: no-repeat; */
+      /* background-size: cover; */
+      background-color: #00374a; 
+      height: 12vh;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: calc(96vw - 20px);
+    }
+    .ham{
+      height: 40px;
+    }
+    .Nav {
+      background-color: #176B87; 
+      color: #fff; 
+      width: 50%; 
+      height: 100vh; 
+      position: fixed; 
+      bottom: 0; 
+      left: 0; 
+      overflow-y: auto; 
+      overflow-x: auto;
+      padding-top:15px; 
+      
+    }
+   .list{
+    margin-top: 17vh;
+   }
+   .list li{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 2px; */
+    /* padding-top: 5px; */
+    padding-right: 0;
+   }
+  }

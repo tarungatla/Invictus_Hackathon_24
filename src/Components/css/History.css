@@ -1,0 +1,162 @@
+/* div {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+
+  
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+
+
+
+tr:last-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  td:last-child {
+    font-weight: bold;
+  }
+  
+   */
+
+   /* .TransTable{
+    width: 70%;
+    left: 25%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+   } */
+
+ 
+
+.TransTable { 
+
+  padding: 20px; 
+  overflow: hidden;
+  text-align: center;
+  margin-left: 15vw;
+}
+
+
+
+.TransTable h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ .tablediv {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.TransTable thead th{
+  background:#176B87;
+  color: white;
+}
+
+.TransTable thead th,.TransTable tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.HistTable{
+  width:fixed;
+  height: fixed;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.TransTable tbody td {
+  vertical-align: top; /* Align text at the top of cells */
+}
+
+/* button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+.TransTable tbody tr:last-child {
+  background-color: #fff; 
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .TransTable {
+    overflow: scroll;
+    margin: 0; 
+    width: 100vw;
+    padding: 0;
+    margin-top: 13vh;
+  }
+}
